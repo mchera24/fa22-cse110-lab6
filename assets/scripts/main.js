@@ -109,9 +109,7 @@ function initFormHandler() {
   }
   else
   {
-    const recipeList = JSON.parse({});
-    recipeList.push(recipeObject);
-    localStorage.setItem('recipes', JSON.stringify(recipeList));
+    localStorage.setItem('recipes', JSON.stringify(recipeObject));
   }
   })
 
