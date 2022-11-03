@@ -111,7 +111,7 @@ function initFormHandler() {
   {
     const recipeList = {};
     recipeList.push(recipeObject);
-    localStorage.setItem('recipes', JSON.stringify(recipeList);
+    localStorage.setItem('recipes', JSON.stringify(recipeList));
   }
   })
 
